@@ -1,3 +1,7 @@
+#!name=Get Cookie
+#!desc=获取Cookie
+#!system=ios
+
 [MITM]
 hostname = api.m.jd.com, c.tieba.baidu.com
 
