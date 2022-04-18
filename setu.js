@@ -1,6 +1,6 @@
 let userApikey   = '689809626257d8c4b6b4c5' //请在 Telegram 内使用 @loliconApiBot 申请
 let userR18      = 1 //18禁为1 非为0 2是混合
-let userKeyword  = '黑丝,渔网'//搜索关键字
+let userKeyword  = '黑丝'//搜索关键字
 let userNum      = 1 //一次返回的结果数量，范围为1到10，数字的数量亦为弹框的次数
 var request = {
     url:encodeURI("https://api.lolicon.app/setu?apikey=" + userApikey + "&r18=" + userR18 + "&keyword=" + userKeyword + "&num=" + userNum),
